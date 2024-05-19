@@ -5,11 +5,11 @@ box-sizing: border-box;
 }
 
 body {
-font-family: Arial, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
 line-height: 1.5;
-color: #333;
-background-color: rgb(199, 224, 224);
+color: #000000;
+background-color: #a9ddda;
 }
 
 header {
@@ -18,11 +18,11 @@ color: rgb(59, 76, 94);
 padding: 20px;
 text-align: center;
 }
+
 header h1 {
 font-size: 2rem;
 margin-bottom: 10px;
 }
-
 
 nav {
 display: flex;
@@ -54,13 +54,29 @@ color: #fff;
 section {
 margin-bottom: 20px;
 padding: 20px;
-border: 1px solid #add8e6 ;
+border: 1px solid #000000 ;
 border-radius: 5px;
 }
 
 section h2 {
 font-size: 1.5rem;
 margin-bottom: 10px;
+}
+
+#sports{
+    background-color: rgb(24, 136, 136);
+}
+
+#economy{
+    background-color: rgb(24, 136, 136, 0.8);
+}
+
+#entretenimento{
+    background-color: rgb(24, 136, 136, 0.6);
+}
+
+#technology{
+    background-color: rgb(24, 136, 136, 0.4);
 }
 
 article {
@@ -75,6 +91,7 @@ margin-bottom: 10px;
 
 article header {
 margin-bottom: 10px;
+background-color: rgb(15, 77, 77);
 }
 
 article header time {
@@ -98,9 +115,4 @@ background-color: #bd0000;
 color: #fff;
 text-decoration: none;
 border-radius: 5px;
-}
-article a:hover {
-background-color: #ccadad;
-color: #000000;
-border: 1px solid #333;
 }
